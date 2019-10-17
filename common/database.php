@@ -1,10 +1,10 @@
 <?php
     function getConnection()
     {
-        $host = 'localhost';
-        $db_name = 'ninja';
-        $username = 'swastik';
-        $password = 'Kcss$0186';
+        $host = '192.168.16.185';
+        $db_name = 'php_api';
+        $username = 'aufawibowo';
+        $password = 'password';
         $conn= new mysqli($host, $username, $password, $db_name);
         if ($conn->connect_error) {
             $conn= null;
